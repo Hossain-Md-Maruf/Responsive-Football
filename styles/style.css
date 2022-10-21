@@ -460,13 +460,11 @@ table
 
 .footer-logo
 {
-    margin-top: 20px;
     margin-left: 475px;
     margin-right: 482px;
 }
 .footer-logo img
 {
-    margin-top: 47px;
     width: 483.87px;
 }
 .social-media
@@ -531,6 +529,7 @@ table
 {
     margin-top: 29px;
     margin-left: 16px;
+    margin-bottom: 54px;
 }
 .copa-img img
 {
@@ -582,11 +581,13 @@ table
 @media only screen and (max-width:668px) {
     .footer-logo
     {
+        margin-top: 0;
         margin-left: 18px;
         margin-right: 71px;
     }
     .footer-logo img
     {
+        margin-top: 0;
        width: 80%;
     }
     .social-media
