@@ -47,7 +47,7 @@
 {
     text-decoration: none;
     color: #fff;
-    border: 3px solid #eed8e0;
+    border: 3px solid #f6c5d7;
     background-color: #e4dee0;
     border-radius: 5px;
 }
@@ -66,7 +66,7 @@
 .log-out:hover
 {
     border: 3px solid #f6c5d7;
-    background-color: #f2a1bf;
+    background-color: #ede1e5;
     border-radius: 5px;
     color: #fff;
 }
@@ -261,6 +261,7 @@
 {
     width: 330px;
     height: 380px;
+    border-radius: 8px;
     margin-top: 27px;
     border: 3px solid #FFFFFF;
     margin-right: 30px;
@@ -274,6 +275,8 @@
     width: 300px;
     height: 256px;
     margin: 15px;
+    border-radius: 5px;
+    transition: 2s linear;
 }
 .player-name
 {
@@ -287,6 +290,8 @@
     display: none;
     padding-top: 20px;
     padding-left: 5px;
+    border-radius: 5px;
+    margin: 15px;
     height: 100%;
 
 }
@@ -294,7 +299,7 @@
 {
     display: block;
     background-color: rgba(235, 214, 162, 0.104);
-    color: rgb(0, 7, 7);
+    transition: 5s ease-in-out;
 }
 .player:hover .player-img
 {
@@ -398,6 +403,7 @@ table
 {
     width: 330px;
     height: 474px;
+    border-radius: 8px;
     margin-top: 27px;
     border: 3px solid #FFFFFF;
     margin-right: 30px;
@@ -408,7 +414,7 @@ table
     width: 300px;
     height: 256px;
     margin: 15px;
-
+    border-radius: 5px;
 }
 .stadium-name
 {
@@ -492,6 +498,11 @@ table
 .copa-img img
 {
     width: 100%;
+    border-radius: 5px;
+}
+.copa-img:hover .highlight-img
+{
+    transform: scale(1.1);
 }
 .copa-img
 {
@@ -499,6 +510,11 @@ table
     margin-left: 69px;
     margin-top: 165px;
     margin-bottom: 158px;
+    
+}
+.highlight-img
+{
+    transition: 2s linear;
 }
 .copa-highlight
 {
